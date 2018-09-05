@@ -12,6 +12,7 @@ import { AppRoutingModule } from './/app-routing.module';
 import { WeatherService } from './services/weather.service';
 import { JsonObjectToJsonArrayPipe } from './pipe/json-object-to-json-array.pipe';
 import { ChangeCharacterPipe } from './pipe/change-character.pipe';
+import { FooterComponent } from './pages/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { ChangeCharacterPipe } from './pipe/change-character.pipe';
     TestComponent,
     RegisterComponent,
     JsonObjectToJsonArrayPipe,
-    ChangeCharacterPipe
+    ChangeCharacterPipe,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

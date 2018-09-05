@@ -6,12 +6,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls:  ['./test.component.css'],
 })
 export class TestComponent implements OnInit {
-
+  title="Weather App";
+  description="Quickly build an effective pricing table for your potential customers with this Bootstrap example. It's built with default Bootstrap components and utilities with little customization.";
   constructor() { }
 
   ngOnInit() {
   }
-
-public name="";
 
 }
